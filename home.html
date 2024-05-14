@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!--Fevicon--> 
+        <title>ISC</title>
+        <link rel="icon" type="image/x-icon" href="./src/img/fevicon.png">
+        <link rel="stylesheet" href="./src/style/home_style.css">
+        <script src="./src/script/home_pg.js"></script>
+        <link rel="stylesheet" href="./src/style/navigation_style.css" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Font Awesome Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+  />
+    </head>
+    <body>
+        <header>
+        <nav>
+            <a href="#home" id="logo">ISC</a>
+            <i class="fas fa-bars" id="ham-menu"></i>
+            <ul id="nav-bar">
+                <li>
+                    <a href="#">Home</a>
+                  </li>
+                  <li>
+                    <a href="./about_us.html">About</a>
+                  </li>
+                  <li>
+                    <a href="./gallery.html">Gallery</a>
+                  </li>
+                  <li>
+                    <a href="./testimonials.html">Testimonial</a>
+                  </li>
+                  <li>
+                    <a href="./success_story.html">Milestone</a>
+                  </li>
+                  <li>
+                    <a href="./contact_us.html">Contact</a>
+                  </li>
+            </ul>
+          </nav>
+        </header>
+        <section class="bannerPg">
+          <div class="slideshow-container" id="banner">
+            <div class="mySlides fade">
+              <img src="./src/img/banner1.png" style="width:100%">
+            </div>
+            <div class="mySlides fade">
+              <img src="./src/img/banner2.png" style="width:100%">
+            </div>
+            <div class="mySlides fade">
+              <img src="./src/img/banner3.png" style="width:100%">
+            </div>
+          </div>
+          <script>
+            document.addEventListener("DOMContentLoaded", function() {
+              var slideIndex = 0;
+              showSlides();
+          
+              function showSlides() {
+                var i;
+                var slides = document.getElementsByClassName("mySlides");
+                for (i = 0; i < slides.length; i++) {
+                  slides[i].style.display = "none";
+                }
+                slideIndex++;
+                if (slideIndex > slides.length) {
+                  slideIndex = 1;
+                }
+                slides[slideIndex - 1].style.display = "block";
+                setTimeout(showSlides, 3000); // Change image every 3 seconds
+              }
+            });
+          </script>
+          
+        </section>
+        <section class="aboutUs">
+          <div id="con">
+            <h1>About Us</h1>
+            <p>
+              Innovative Study Circle is abode of learning with commendable tradition of scholastic accomplishment.<br>
+              Innovative Study Circle started in 2003 with one student has now spread its tentacles across Bangalore with more than 900 students.<br>
+              Innovative Study Circle has formidable superiority as a foundation for success in securing the future of every student.<br>
+              We have been at the fore front of quality Math and Science coaching for ICSE, CBSE, STATE BOARD and PUC
+            </p>        
+          </div>
+          <div>
+            <img src="./src/img/fevicon.png">
+          </div>
+        </section>
+        <section class="findUS">
+          <!--U can find us on-->
+          <div class="find01">
+            <h1>
+              <i class="fa-regular fa-address-book"></i><br>
+              Where Can you<br>
+              <span>Find Us ?</span>
+            </h1>
+          </div>
+          <div class="find02">
+            <i class="fa-brands fa-whatsapp"></i>
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-youtube"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-instagram"></i>
+          </div>
+        </section>
+        <section>
+          <!--We Offer-->
+        </section>
+        <section class="uni">
+          <div class="ask">
+            <h1>
+              <i class="fa-solid fa-circle-question" style="color: #fce94f;"></i><br>
+              Why We Are <br>
+              <span>Unique ?</span>
+            </h1>
+          </div>
+          <div class="numU">
+            <p><i class="fa-solid fa-user-group"></i><br>Full time faculty</p>
+            <p><i class="fa-solid fa-folder-tree"></i><br>Student counceling</p>
+            <p><i class="fa-solid fa-file-lines"></i><br>High frequency test</p>
+            <p><i class="fa-solid fa-book-open-reader"></i><br>Acceble to reference book</p>
+            <p><i class="fa-solid fa-pen-to-square"></i><br>Regular Assignment</p>
+            <p><i class="fa-solid fa-trophy"></i><br>+1000 of Success Stories</p>
+          </div>
+        </section>
+        <section class="num">
+          <div>
+            <h1>
+              <span>Numbers Say it All</span><br>
+              Why Choose Us
+            </h1>
+          </div>
+          <div class="container">
+            <div class="row">
+               <div class="col-sm">
+                <i class="fa-solid fa-scroll"></i><br>
+                  <p class="fs-2 text-light con"><span id='0101'>240</span>Days</p>
+                  <p class="">
+                    COURCE DURATION
+                  </p>
+               </div>
+               <div class="col-sm">
+                <i class="fa-solid fa-graduation-cap"></i><br>
+                  <p class="fs-2 text-light con"><span id='0102'>12</span>+</p>
+                  <p class="">
+                    EXAMS CONDUCTED
+                  </p>
+              </div>
+              <div class="col-sm">
+                <i class="fa-solid fa-book"></i><br>
+                 <p class="fs-2 text-light con"><span id='0103'>225</span>+</p>
+                <p class="">
+                  MODEL QUESTION PAPERS
+                </p>
+              </div>
+              <div class="col-sm">
+                <i class="fa-solid fa-user-tie"></i><br>
+                <p class="fs-2 text-light con"><span id='0104'>8</span>+</p>
+               <p class="">
+                FULL TIME FACULTIES
+              </p>
+             </div>
+            </div>
+          </div>
+        </section>
+
+        
+
+<footer class="new_footer_area bg_color">
+  <div class="new_footer_top">
+      <div class="container">
+          <div class="row">
+              <div class="col-lg-3 col-md-6">
+                  <div class="f_widget company_widget wow fadeInLeft" data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInLeft;">
+                      <h3 class="f-title f_600 t_color f_size_18">Get in Touch</h3>
+                      <p>Don’t miss any updates of our new templates and extensions.!</p>
+                      <form action="#" class="f_subscribe_two mailchimp" method="post" novalidate="true" _lpchecked="1">
+                          <input type="text" name="EMAIL" class="form-control memail" placeholder="Email">
+                          <button class="btn btn_get btn_get_two" type="submit">Subscribe</button>
+                          <p class="mchimp-errmessage" style="display: none;"></p>
+                          <p class="mchimp-sucmessage" style="display: none;"></p>
+                      </form>
+                  </div>
+              </div>
+              <div class="col-lg-3 col-md-6">
+                  <div class="f_widget about-widget pl_70 wow fadeInLeft" data-wow-delay="0.4s" style="visibility: visible; animation-delay: 0.4s; animation-name: fadeInLeft;">
+                      <h3 class="f-title f_600 t_color f_size_18">Our Branches</h3>
+                      <ul class="list-unstyled f_list">
+                        <li><a href="Rajajinagar-1st-block.html"> Rajajinagar 1ST Block</a></li>
+                        <li><a href="Rajajinagar-4TH-block.html"> Rajajinagar 4TH Block</a></li>
+                        <li><a href="Malleshwaram.html"> Malleshwaram</a></li>
+                        <li><a href="Basaveshwara-nagara.html"> Basaveshwara nagar</a></li>
+                        <li><a href="Rajajinagar-PUC-Branch.html"> Rajajinagar PUC Branch</a></li>
+                        <li><a href="nagarbhavi-branch.html"> Nagarbhavi Branch</a></li>
+                        
+                        </ul>
+                      </ul>
+                  </div>
+              </div>
+              <div class="col-lg-3 col-md-6">
+                  <div class="f_widget about-widget pl_70 wow fadeInLeft" data-wow-delay="0.6s" style="visibility: visible; animation-delay: 0.6s; animation-name: fadeInLeft;">
+                      <h3 class="f-title f_600 t_color f_size_18">Help</h3>
+                      <ul class="list-unstyled f_list">
+                        <li><a href="about_us.html">  About Us</a></li>
+                        <li><a href="contact_us.html"> Contact Us</a></li>
+                        <li><a href="gallery.html"> Gallery</a></li>
+                        <li><a href="success-stories.html"> Success Stories</a></li>
+                        <li><a href="testimonials.html"> Testimonial</a></li>
+                      </ul>
+                  </div>
+              </div>
+              <div class="col-lg-3 col-md-6">
+                  <div class="f_widget social-widget pl_70 wow fadeInLeft" data-wow-delay="0.8s" style="visibility: visible; animation-delay: 0.8s; animation-name: fadeInLeft;">
+                      <h3 class="f-title f_600 t_color f_size_18">Connect with Us</h3>
+                      <div class="f_social_icon">
+                          <a href="https://www.facebook.com/Innovative-Study-Circle-R-103625069696186" class="fab fa-facebook"></a>
+                          <a href="https://twitter.com/iscgurublr?s=08" class="fab fa-twitter"></a>
+                          <a href="https://www.youtube.com/channel/UCqGsxCbleWlJHbu0Rk_jH1A" class="fab fa-youtube"></a>
+                          <a href="https://www.instagram.com/isc.guru/" class="fab fa-instagram"></a>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <div class="footer_bg">
+          <div class="footer_bg_one"></div>
+          <div class="footer_bg_two"></div>
+      </div>
+  </div>
+  <div class="footer_bottom">
+      <div class="container">
+          <div class="row align-items-center">
+              <div class="col-lg-6 col-sm-7">
+                  <p class="mb-0 f_400">© Developed By JS1820.</p>
+              </div>
+              <div class="col-lg-6 col-sm-5 text-right">
+                  <p>Coded by<i class="icon_heart"></i> <a href="http://cakecounter.com" target="_blank">Jeevan Satish</a></p>
+              </div>
+          </div>
+      </div>
+  </div>
+</footer>
+        <script src="./src/script/navigation_part.js"></script>
+    </body>
+</html>
